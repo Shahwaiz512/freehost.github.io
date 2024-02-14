@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(https://imgv3.fotor.com/images/blog-richtext-image/coding-on-a-laptop-for-ai-system.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.navbar{
+    background-color: white;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+}
+.nav{
+    margin: auto;
+    max-width: 1170px;
+    background-color: white;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+.nav .not{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.nav li{
+    /* height: 50px; */
+}
+.nav a{
+    display: flex;
+    /* height: 100%; */
+    text-decoration: none;
+    align-items: center;
+    color: black;
+    padding: 10px 30px;
+}
+/* .nav a:hover{
+    background-color: #f0f0f0;
+} */
+.nav li:first-child{
+    margin-right: auto;
+}
+.not  .hidemobile:nth-child(5){
+    background-color: rgb(7, 7, 7);
+    border-radius: 30px;
+    
+}
+.loign a{
+    color: white;    
+}
+.not .loign:hover{
+    border: 1px solid red;
+}
+
+.sidebar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    background-color: rgba(255, 255, 255, 0.456);
+    backdrop-filter: blur(10px);
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: first baseline ;
+    transition: right 0.3s ease;
+}
+.sidebar li{
+    width: 100%;
+    list-style-type: none;
+}
+
+.sidebar a{
+    width: 100%;
+}
+.menu-button{
+    display: none;
+}
+
+.close-button{
+    width: 50px;
+    height: 50px;
+}
+@media (max-width: 800px) {
+    .hidemobile{
+        display: none;
+    }
+    .menu-button{
+        display: block;
+    }
+    .nav .not{
+        display: flex;
+        align-items: center;
+    }
+    .not .menu-button img{
+        width: 30px;
+        /* height: 30px; */
+        margin-top: 15px;
+        margin-right: 15px;
+    }
+    .sidebar .close-button img{
+        width: 30px;
+        /* height: 30px; */
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .nav .not{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media (max-width: 400px) {
+    .sidebar{
+        width: 100%;
+    }
+    .sidebar .logo{
+        width: 100px;
+        background-color: salmon;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
