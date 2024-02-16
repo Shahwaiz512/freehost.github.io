@@ -1,7 +1,10 @@
 function showForm(){
     const  sidebar = document.querySelector('.sidebar')
-    sidebar.style.display = 'flex'
+    sidebar.style.display = 'flex';
+    sidebar.style.transition = "all 0.2s";
 }
+
+
     function hideForm(){
     const  sidebar = document.querySelector('.sidebar')
     sidebar.style.display = 'none'
