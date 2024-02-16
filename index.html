@@ -224,7 +224,6 @@
             <div class="footer-details">
                 <p>&copy; 2024 NoCode University. All rights reserved.</p>
                 <img src="./assets/images/Screenshot_2024-02-13_100248-removebg-preview.png" alt="">
-
             </div><!-- /.footer-details -->
             <div class="icons2"></div><!-- /.icons2 -->
         </div><!-- /.footer-wrapper -->
@@ -261,6 +260,16 @@
     }   
 
 
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
     </script>
 </body>
 </html> 
