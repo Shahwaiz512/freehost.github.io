@@ -609,7 +609,204 @@ body{
 
 
 
+@media (max-width: 1147px) {
+    .sidebar{
+        display: flex;
+        align-items: center;
+    }
+    .sidebar  li{
+        margin-bottom: 10px;
+    }
+    .sidebar .login-side{
+        margin-left: 10px;
+        padding: 3px 15px;
+        background-color: rgb(7, 7, 7);
+        border-radius: 30px;
+        /* box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1); */
+    
+    }
+    .sidebar .signup-side{
+        padding: 3px 9px;
+        border: 1px solid black;
+        border-radius: 30px;
+        margin-left: 10px;
+        box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+    
+    }
+    .sidebar .login-side a{
+        color: white;
+    }
+    .hero-section{
+        margin-top: 60px;
+    }
+    .navbar{
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 1000; 
+    }
+    .sidebar{
+        /* width: 100%; */
+    }
+    .not li a img{
+        width: 100px;
+    }
+    .nav{
+        padding: 0px;
+    }
+    .not .menu-button img{
+        width: 30px;
+    }
+    .welcome{
+        width: 100%;
+    }
+    .welcome-wrapper{
+        display: block;
+    }
+    .welcome-wrapper{
+        display: flex;
+        padding: 40px 30px ;
+    }
+    .welcome-img img{
+        width: 300px;
+        margin: 40px 0;
+    }
+    .description{
+        padding: 10px 0;
+    }
+    .description h1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+        text-align: center;
+        font-weight: 600;
+        line-height: 1.5em;
+    }
+    .description p{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1em;
+        text-align: center;
+        font-weight: 400;
+    }
+    .information-wrapper{
+        display: none;
+    }
+    .information-wrapper1{
+        display: block;
+        /* background-color: saddlebrown;] */
+        padding: 40px;
+    }
+    .section1-responsinve{
+        width: 100%;
+        /* background-color: red; */
+        justify-content: center;
+        align-items: center;
+    }
+    .section1-responsinve img{
+        width: 90%;
+        margin:  7px 15px;
+        margin-bottom: 90px;
+    }
+    .details{
+        width: 100%;
+        background-color: transparent;
+        border: none;
+        padding: 0;
+        text-align: center;
+        font-weight: 100;
+        box-shadow: none;
+    }
+    .courses-detail{
+        display: flex;
+        padding: 0 40px;
+    }
+    .course1{
+        margin: 40px 20px;
+        padding: 40px 18px;
+        width: 80%;
+        background-color: #FFFFFF;
 
+    }
+    .course2{
+        margin: 40px 20px;
+        padding: 40px 18px;
+        width: 80%;
+        background-color: #FFFFFF;
+        /* background-color: salmon; */
+
+    }
+    .course3{
+        margin: 40px 20px;
+        padding: 40px 18px;
+        width: 80%;
+        background-color: #FFFFFF;
+    }
+    .professor-spotlight{
+        line-height: 50px;
+        padding: 20px 30px;
+        background-color: #0146B1;
+    }
+    .professor-spotlight h1{
+        line-height: 50px;
+    }
+    .professor-spotlight p{
+        line-height: 30px;
+    }
+    .professor-spotlight-details-wrapper{
+        display: block;
+    }
+    .professor-name{
+        width: 90%;
+        padding: 10px;
+        margin: auto;
+    }
+    .professor-detail{
+        width: 84%;
+        border: none;
+        padding: 20px;
+        border-radius: 15px 15px 15px 15px;
+        justify-content: center;
+        align-items: center;    
+        margin: auto;
+    }
+    .professor1{
+        border-radius: 15px 15px 0px 0px;
+    }
+    .professor4{
+        border-radius: 0px 0px 15px 15px;
+    }
+    .footer-details{
+        display: block;
+        text-align: center;
+    }
+    .footer-details img{
+        margin-top: 40px;
+    }
+    .footer-wrapper{
+        padding: 100px 10px;
+    }
+    .advertisement {
+        position: absolute;
+        top: 50%;
+        left: 38%;
+        transform: translate(-50%, -50%);
+    }
+    .advertisement-content img{
+        width: 140%;
+        border-radius: 15px;
+    }
+    .close {
+        position: absolute;
+        top: 20px;
+        right: -140px;
+        font-size: 50px;
+        cursor: pointer;
+        font-weight: 300;
+    }
+}
 
 
 
