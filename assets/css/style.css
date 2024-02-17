@@ -537,9 +537,9 @@ body{
     margin-bottom: 25px;
 }
 .professor2-detail p{
-    font-size: 20px;
+    color: #878a8e!important;
+    font-size: 0.867rem;
     margin-bottom: 25px;
-    line-height: 35px;
 
 }
 .professor3-detail img{
@@ -552,10 +552,9 @@ body{
     margin-bottom: 25px;
 }
 .professor3-detail p{
-    font-size: 20px;
+    color: #878a8e!important;
+    font-size: 0.867rem;
     margin-bottom: 25px;
-    line-height: 35px;
-
 }
 .professor4-detail img{
     width: 20%;
@@ -567,9 +566,9 @@ body{
     margin-bottom: 25px;
 }
 .professor4-detail p{
-    font-size: 20px;
+    font-size: 0.867rem;
     margin-bottom: 25px;
-    line-height: 35px;
+    color: #878a8e!important;
 
 }       
 

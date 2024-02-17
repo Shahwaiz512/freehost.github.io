@@ -1,3 +1,6 @@
+
+//for responsive navbar hide and show.....
+
 function showForm(){
     const  sidebar = document.querySelector('.sidebar')
     sidebar.style.display = 'flex';
@@ -10,10 +13,13 @@ function showForm(){
     sidebar.style.display = 'none'
 }
 
+//for advertisment blur
+
+
 function closeAdvertisement() {
     var advertisementWrapper = document.getElementById('advertisement-wrapper');
     advertisementWrapper.style.display = 'none';
-    document.body.classList.remove('blur'); // Remove blur effect from the rest of the webpage
+    document.body.classList.remove('blur');
 }
 
 //for toggling the inforamtion ofo professors
