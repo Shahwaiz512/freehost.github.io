@@ -276,12 +276,15 @@ body{
     margin: 20px;
     padding: 20px;
 }
-.info-image img{
+.info-image .img1  img{
+    width: 80%;
+}
+.info-image .img2 img, .img3 img, .img4 img{ 
     width: 80%;
     padding-left: 80px;
-    display: none;
+    /* display: none; */
 }
-.info-image .img1{
+.info-image .img1 img{
     display: block;
 }
 .info-details{
@@ -571,8 +574,6 @@ body{
     color: #878a8e!important;
 
 }       
-
-
 .footer-wrapper{
     background-color: #A4F337;
     padding: 200px 0;
@@ -702,7 +703,7 @@ body{
     }
     .information-wrapper1{
         display: block;
-        /* background-color: saddlebrown;] */
+        /* background-color: saddlebrown; */
         padding: 40px;
     }
     .section1-responsinve{

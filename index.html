@@ -77,25 +77,33 @@
        </div><!-- /.description-wrapper -->
         <div class="information-wrapper">
             <div class="info-image" id="info-image">
-                <img class="img1" src="./assets/images/info img.svg" alt="">
-                <img class="img-a" src="./assets/images/div2.svg" alt="">
-                <img class="img-b" src="./assets/images/div3.svg" alt="">
-                <img class="img-c" src="./assets/images/div4.svg" alt="">
+                <div class="img1">
+                    <img src="./assets/images/info img.svg" alt="">
+                </div><!-- /.img1 -->
+                <div class="img2">
+                    <img src="./assets/images/div2.svg" alt="">
+                </div><!-- /.img2 -->
+                <div class="img3">
+                    <img src="./assets/images/div3.svg" alt="">
+                </div><!-- /.img3 -->
+                <div class="img4">
+                    <img src="./assets/images/div4.svg" alt="">
+                </div><!-- /.img4 -->
             </div><!-- /.info-image -->
             <div class="info-details">
-                <div tabindex="1" class="details">
+                <div tabindex="1" class="details" onclick="toggleImage('img1')">
                     <h5>2019</h5>
                     <p>the year NoCode University was established.</p>
                 </div><!-- /.details -->
-                <div tabindex="1" class="details active1"  onclick=showImage(1)>
+                <div tabindex="1" class="details active1"  onclick="toggleImage('img2')">
                     <h5>1000+</h5>
                     <p> students study at NoCode University.</p>
                 </div><!-- /.details -->
-                <div tabindex="1" class="details active2" onclick=showImage(2)>
+                <div tabindex="1" class="details active2" onclick="toggleImage('img3')">
                     <h5>50+</h5>
                     <p>number of online courses offered.</p>
                 </div><!-- /.details -->
-                <div tabindex="1" class="details active3" onclick=showImage(3)>
+                <div tabindex="1" class="details active3" onclick="toggleImage('img4')">
                     <h5>50k+</h5>
                     <p>alumni worldwide.</p>
                 </div><!-- /.details -->
