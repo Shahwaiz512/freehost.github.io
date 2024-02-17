@@ -193,7 +193,7 @@ body{
 .welcome-wrapper{
 
     display: flex;
-    padding: 20px 444px;
+    padding: 20px 250px;
 }
 .welcome{
     width: 50%;
@@ -205,7 +205,7 @@ body{
     margin: 10px;
 }
 .welcome-img img{
-    width: 90%;
+    /* width: 90%; */
 }
 .welcome ul{
     display: flex;
@@ -296,10 +296,14 @@ body{
     font-weight: 100;
     padding:8px 24px;
     background-color:#F9F6EE;
+    border-left:4px solid transparent ;
+}
+.details:focus{
+    cursor: pointer;
     border-left: 4px solid #ccc;
     box-shadow: 3px 3px 15px 0 hsla(0,0%,73%,.15);
-    margin-bottom: 10px;
     transition: box-shadow 0.3s ease, box-shadow 0.3s ease;
+
 }
 .details h5{
     padding-top: 20px;
@@ -431,6 +435,10 @@ body{
     display: flex;
     justify-content: center;
 }
+.property:focus{
+    background-color: #F5F5F5;
+    cursor: pointer;
+}
 .professor-name{
     width: 20%;
     /* background-color: saddlebrown; */
@@ -462,7 +470,7 @@ body{
 .professor1{
     background-color: #FFFFFF;
     display: flex;
-    padding: 40px 10px;
+    padding: 28px 15px;
     align-items: center;
     border-radius: 20px 0px 0px 0;
     border-bottom: 1px solid #D1DDF1;
@@ -471,7 +479,7 @@ body{
 .professor2{
     background-color: #FFFFFF;
     display: flex;
-    padding: 40px 10px;
+    padding: 28px 15px;
     align-items: center;
     border-bottom: 1px solid #D1DDF1;
 
@@ -479,7 +487,7 @@ body{
 .professor3{
     background-color: #FFFFFF;
     display: flex;
-    padding: 40px 10px;
+    padding: 28px 15px;
     align-items: center;
     border-bottom: 1px solid #D1DDF1;
     
@@ -487,7 +495,7 @@ body{
 .professor4{
     background-color: #FFFFFF;
     display: flex;
-    padding: 40px 10px;
+    padding: 28px 15px;
     align-items: center;
     border-radius:  0 0 0 20px;
 }
@@ -512,9 +520,9 @@ body{
     margin-bottom: 25px;
 }
 .professor1-detail p{
-    font-size: 20px;
+    color: #878a8e!important;
+    font-size: 0.876rem;
     margin-bottom: 25px;
-    line-height: 35px;
 }
 .professor2-detail img{
     width: 20%;
@@ -562,10 +570,6 @@ body{
 
 }       
 
-.professor1.active{
-    background-color: white;
-    cursor: pointer;
-}
 
 .footer-wrapper{
     background-color: #A4F337;
@@ -1010,6 +1014,7 @@ body{
         margin: auto;
     }
     .professor1{
+        padding: 20px 10px;
         border-radius: 15px 15px 0px 0px;
     }
     .professor4{
@@ -1198,6 +1203,20 @@ body{
         width: 90%;
         padding: 10px;
         margin: auto;
+        font-size: 30px;
+
+    }
+    .professor1-detail img {
+        width: 50%;
+    }
+    .professor2-detail img {
+        width: 50%;
+    }
+    .professor3-detail img {
+        width: 50%;
+    }
+    .professor4-detail img {
+        width: 50%;
     }
     .professor-detail{
         width: 80%;
@@ -1209,6 +1228,7 @@ body{
         margin: auto;
     }
     .professor1{
+        padding: 20px 10px;
         border-radius: 15px 15px 0px 0px;
     }
     .professor4{
@@ -1308,8 +1328,11 @@ body{
     .welcome-wrapper{
         padding: 40px 30px ;
     }
+    .welcome-img {
+        width: 100%;
+    }
     .welcome-img img{
-        width: 300px;
+        width: 100%;
         margin: 40px 0;
     }
     .description{
@@ -1400,6 +1423,7 @@ body{
         width: 90%;
         padding: 10px;
         margin: auto;
+        font-size: 30px;
     }
     .professor-detail{
         width: 80%;
@@ -1411,9 +1435,17 @@ body{
         margin: auto;
     }
     .professor1{
+        padding: 20px;
         border-radius: 15px 15px 0px 0px;
     }
+    .professor2{
+        padding: 20px;
+    }
+    .professor3{
+        padding: 20px;
+    }
     .professor4{
+        padding: 20px;
         border-radius: 0px 0px 15px 15px;
     }
     .footer-details{

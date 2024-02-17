@@ -83,19 +83,19 @@
                 <img class="img-c" src="./assets/images/div4.svg" alt="">
             </div><!-- /.info-image -->
             <div class="info-details">
-                <div class="details">
+                <div tabindex="1" class="details">
                     <h5>2019</h5>
                     <p>the year NoCode University was established.</p>
                 </div><!-- /.details -->
-                <div class="details active1"  onclick=showImage(1)>
+                <div tabindex="1" class="details active1"  onclick=showImage(1)>
                     <h5>1000+</h5>
                     <p> students study at NoCode University.</p>
                 </div><!-- /.details -->
-                <div class="details active2" onclick=showImage(2)>
+                <div tabindex="1" class="details active2" onclick=showImage(2)>
                     <h5>50+</h5>
                     <p>number of online courses offered.</p>
                 </div><!-- /.details -->
-                <div class="details active3" onclick=showImage(3)>
+                <div tabindex="1" class="details active3" onclick=showImage(3)>
                     <h5>50k+</h5>
                     <p>alumni worldwide.</p>
                 </div><!-- /.details -->
@@ -176,19 +176,19 @@
             </div><!-- /.professor-spotlight -->
             <div class="professor-spotlight-details-wrapper">
                 <div class="professor-name" id="professor-name">
-                    <div class="professor1 property">
+                    <div tabindex="1" class="professor1 property">
                         <img src="./assets/images/f17760e5-1930-49f0-9244-696aa3bd6b00.jpeg" alt="">
                         <p>Cordelia Taraby</p>
                     </div><!-- /.professor1 -->
-                    <div class="professor2 property">
+                    <div tabindex="1" class="professor2 property">
                         <img src="./assets/images/f17760e5-1930-49f0-9244-696aa3bd6b00.jpeg" alt="">
-                        <p>Cordelia Taraby</p>
+                        <p>Not a teacher</p>
                     </div><!-- /.professor2 -->
-                    <div class="professor3 property">
+                    <div tabindex="1" class="professor3 property">
                         <img src="./assets/images/f17760e5-1930-49f0-9244-696aa3bd6b00.jpeg" alt="">
-                        <p>Cordelia Taraby</p>
+                        <p>May be a teacher </p>
                     </div><!-- /.professor3 -->
-                    <div class="professor4 property">
+                    <div tabindex="1" class="professor4 property">
                         <img src="./assets/images/f17760e5-1930-49f0-9244-696aa3bd6b00.jpeg" alt="">
                         <p>Cordelia Taraby</p>
                     </div><!-- /.professor4 -->
@@ -232,32 +232,11 @@
 
 
     <script>
-    const active1 = document.querySelector('.active1');
-    active1.addEventListener('click' , function () {
-        this.classList.toggle('active');
-    });
-    const active2 = document.querySelector('.active2');
-    active2.addEventListener('click' , function () {
-        this.classList.toggle('active');
-    });
-    const active3 = document.querySelector('.active3');
-    active3.addEventListener('click' , function () {
-        this.classList.toggle('active');
-    });
+    
 
 
 
-    function showImage(index) {
-    // Hide all images
-    var images = document.querySelectorAll('.info-image img');
-    images.forEach(function(image) {
-        image.style.display = 'none';
-    });
-
-    // Show the selected image
-    var selectedImage = document.getElementById('image' + index);
-    selectedImage.style.display = 'block';
-    }   
+ 
 
 
 
