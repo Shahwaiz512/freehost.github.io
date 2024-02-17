@@ -507,7 +507,10 @@ body{
     border-radius: 0 20px 20px 0;
 
 }
-.professor3-detail, .professor2-detail, .professor4-detail{
+.professor1-detail{
+    display: block;
+}
+.professor2-detail, .professor3-detail, .professor4-detail{
     display: none;
 }
 .professor1-detail img{

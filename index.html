@@ -176,26 +176,26 @@
             </div><!-- /.professor-spotlight -->
             <div class="professor-spotlight-details-wrapper">
                 <div class="professor-name" id="professor-name">
-                    <div tabindex="1" class="professor1 property">
+                    <div tabindex="1" class="professor1 property" onclick="toggleInfo('professor1-detail')">
                         <img src="./assets/images/f17760e5-1930-49f0-9244-696aa3bd6b00.jpeg" alt="">
                         <p>Cordelia Taraby</p>
                     </div><!-- /.professor1 -->
-                    <div tabindex="1" class="professor2 property">
+                    <div tabindex="1" class="professor2 property" onclick="toggleInfo('professor2-detail')">
                         <img src="./assets/images/f17760e5-1930-49f0-9244-696aa3bd6b00.jpeg" alt="">
                         <p>Not a teacher</p>
                     </div><!-- /.professor2 -->
-                    <div tabindex="1" class="professor3 property">
+                    <div tabindex="1" class="professor3 property" onclick="toggleInfo('professor3-detail')">
                         <img src="./assets/images/f17760e5-1930-49f0-9244-696aa3bd6b00.jpeg" alt="">
                         <p>May be a teacher </p>
                     </div><!-- /.professor3 -->
-                    <div tabindex="1" class="professor4 property">
+                    <div tabindex="1" class="professor4 property" onclick="toggleInfo('professor4-detail')">
                         <img src="./assets/images/f17760e5-1930-49f0-9244-696aa3bd6b00.jpeg" alt="">
                         <p>Cordelia Taraby</p>
                     </div><!-- /.professor4 -->
                 </div><!-- /.professor-name -->
                 <div class="professor-detail">
                     <div class="professor1-detail">
-                        <img src="./assets/images/f17760e5-1930-49f0-9244-696aa3bd6b00.jpeg" alt="">
+                        <img src="./assets/images/professor 2.jpg" alt="">
                         <h1>Cordelia Taraby</h1>
                         <p>Cordelia is a professor of vision science, with a focus on the study of how the visual system works and how it can be improved. She is a respected expert in her field, with a strong background in research and teaching. Her contributions to vision science have been significant, and she is likely making a positive impact on the understanding and treatment of visual impairments and other related conditions.</p>
                     </div><!-- /.professor1-detail -->
@@ -232,14 +232,6 @@
 
 
     <script>
-    
-
-
-
- 
-
-
-
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
         e.preventDefault();
