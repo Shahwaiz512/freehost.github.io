@@ -16,6 +16,7 @@ function closeAdvertisement() {
     document.body.classList.remove('blur'); // Remove blur effect from the rest of the webpage
 }
 
+//for toggling the inforamtion ofo professors
 
 
 function toggleInfo(elementId){
