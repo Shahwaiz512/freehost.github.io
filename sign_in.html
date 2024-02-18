@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/login.css">
+    <link rel="icon" href="./assets/images/logo.svg">
+    <script src="./assets/js/script.js" ></script>
+    <title>Login</title>
+</head>
+<body>
+    <section class="navbar">
+        <nav class="nav">
+           <div class="sidebar">
+            <ul>
+                <li class="close-button" onclick=hideForm()><img src="./assets/icons/close_FILL0_wght400_GRAD0_opsz24.svg" alt=""></li>
+                <li ><a href=""><img src="./assets/images/logo.svg" alt=""></a></li>
+                <li><a href="#information-wrapper1">About Us</a></li>
+                <li><a href="#courses-wrapper">Courses</a></li>
+                <li><a href="#professor-spotlight">Professors</a></li>
+                <li class="login-side"><a href="">Login</a></li>
+                <li class="signup-side"><a href="">SignUp</a></li>
+            </ul>
+           </div>
+            
+           
+            <ul class="not">
+                <li ><a href=""><img  class="logo" src="./assets/images/logo.svg" alt=""></a></li>
+                <li class="hidemobile"><a href="#info-image">About Us</a></li>
+                <li class="hidemobile"><a href="#courses-wrapper">Courses</a></li>
+                <li class="hidemobile"><a href="#professor-spotlight">Professors</a></li>
+                <li class="hidemobile login"><a href="">Login</a></li>
+                <li class="hidemobile"><a href="">SignUp</a></li>
+                <li class="menu-button" onclick=showForm()><img src="./assets/icons/menu_FILL0_wght400_GRAD0_opsz24.svg" alt=""></li>
+            </ul>
+        </nav>
+    </section><!-- /.navbar -->
+    <secction class="hero-section">
+        <div class="login-details">
+            <div class="form-details">
+                <h1>Login</h1>
+                <div class="test-user">
+                    <h5>Lorem.</h5>
+                    <h5>Lorem.</h5>
+                </div>
+                <form action="">
+                    <input type="email" placeholder="Email" required>
+                    <input type="password" placeholder="Password" required>
+                </form>
+            </div><!-- /.form-details -->
+            <div class="form-buttons">
+                <a href="">Login</a>
+                <a href="">SignUp</a>
+                <a href="">Forgot Password</a>
+            </div><!-- /.form-buttons -->
+        </div><!-- /.login-details -->
+    </secction><!-- /.hero-section -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <section class="footer">
+        <div class="footer-wrapper">
+            <div class="footer-details">
+                <p>&copy; 2024 NoCode University. All rights reserved.</p>
+                <img src="./assets/images/Screenshot_2024-02-13_100248-removebg-preview.png" alt="">
+            </div><!-- /.footer-details -->
+            <div class="icons2"></div><!-- /.icons2 -->
+        </div><!-- /.footer-wrapper -->
+    </section><!-- /.footer -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
+    </script>
+</body>
+</html> 
