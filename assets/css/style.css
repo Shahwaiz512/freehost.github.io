@@ -284,6 +284,11 @@ body{
     padding-left: 80px;
     /* display: none; */
 }
+
+
+.info-image .img2, .img3, .img4{
+    display: none;
+}
 .info-image .img1 img{
     display: block;
 }
