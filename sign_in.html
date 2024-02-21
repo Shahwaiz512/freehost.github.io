@@ -45,10 +45,13 @@
                     <a href="">Student</a>
                 </div>
                 <form action="">
+                    <div tabindex="1" class="email-wrapper">
                     <input tabindex="1" type="email" placeholder="Email" id="email" required>
-                    <div class="input-password">
+                    </div>
+                    <div tabindex="1" class="input-password">
                         <input tabindex="1" type="password" placeholder="Password" id="password" required>
-                        <img src="./icons/eyebrow.png" alt="">
+                        <img onclick="passValid()" id="eye-icon" src="./icons/eyebrow.png" alt="">
+                        
                     </div>
                 </form>
             </div><!-- /.form-details -->

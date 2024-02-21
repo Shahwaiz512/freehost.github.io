@@ -52,10 +52,18 @@ function toggleImage(elementId){
     }
 }
 
-//login form validation
+//login form validation 
 
+function passValid(){
+    let password = document.querySelector('#password');
+    let icon =  document.querySelector('#eye-icon')
+    if(password.type === 'password'){
+        password.type = 'text';
+        icon.src = './icons/visible.png';
+    }else{
+        password.type = 'password';
+        icon.src = './icons/eyebrow.png';
 
-let pass = document.querySelector('#password');
-pass.addEventListener('click', function() {
-    pass.innerHTML.text = 'text'
-})
+    }
+}
+// console.log(passValid);

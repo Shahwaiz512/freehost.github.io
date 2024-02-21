@@ -141,17 +141,6 @@ body{
     outline: none;
     border: none;
     background-color: transparent;
-    background-color: #FAFAFC;
-    padding: 20px 0;
-    padding-left: 10px;
-    /* padding-top: 1rem; */
-    /* padding-bottom: 1rem; */
-    margin-bottom: 20px;
-    border-radius: 5px;
-    border: 1px solid transparent;
-}
-.form-details form input:focus{
-    border: 1px solid black;
 }
 .test-user{
     background-color:#EDF3FB;
@@ -197,14 +186,53 @@ body{
 }
 .form-buttons a:nth-child(3){
     display: block;
-    /* justify-content: center; */
-    /* align-items: center; */
     text-align: center;
     margin-bottom: 10px;
     margin-top: 30px;
 }
+.form-details form input{
+    margin-left: 12px;
+}
+.email-wrapper{
+    display: flex;
+    width: 100%;
+    background-color: #FAFAFC;
+    padding: 17px 0;
+    /* padding-top: 1rem; */
+    /* padding-bottom: 1rem; */
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+}
+.input-password{
+    display: flex;
+    width: 100%;
+    background-color: #FAFAFC;
+    padding: 12px 0;
+    /* padding-top: 1rem; */
+    /* padding-bottom: 1rem; */
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+}
+.input-password img{
+    padding-right: 17px;
+    width: 8%;
+    cursor: pointer;
+}
+.email-wrapper:focus{
+    border: 1px solid black;
+}
+.input-password:focus{
+    border: 1px solid black;
+}
 
-
+.email-wrapper:hover{
+    border: 1px solid rgba(0, 0, 0, 0.433);
+}
+.input-password:hover{
+    border: 1px solid rgba(0, 0, 0, 0.419);
+}
 
 
 
@@ -527,12 +555,9 @@ body{
         width: 30px;
     }
     .login-details{
-        padding: 10px;
+        padding: 30px;
+        margin:  0 20px;
         box-shadow: 3px 3px 15px 0 hsla(0,0%,73%,.15);  
-    }
-    .login-details form input{
-        width: 90%;
-        padding-left: 20px;
     }
     .form-buttons a:nth-child(3){
         display: block;
@@ -540,7 +565,6 @@ body{
         margin-bottom: 10px;
         margin-top: 30px;
     }
-
 
 
 
