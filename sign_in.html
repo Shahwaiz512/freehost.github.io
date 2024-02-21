@@ -15,9 +15,9 @@
             <ul>
                 <li class="close-button" onclick=hideForm()><img src="./assets/icons/close_FILL0_wght400_GRAD0_opsz24.svg" alt=""></li>
                 <li ><a href=""><img src="./assets/images/logo.svg" alt=""></a></li>
-                <li><a href="#information-wrapper1">About Us</a></li>
-                <li><a href="#courses-wrapper">Courses</a></li>
-                <li><a href="#professor-spotlight">Professors</a></li>
+                <li><a href="index.html#information-wrapper1">About Us</a></li>
+                <li><a href="index.html#courses-wrapper">Courses</a></li>
+                <li><a href="index.html#professor-spotlight">Professors</a></li>
                 <li class="login-side"><a href="">Login</a></li>
                 <li class="signup-side"><a href="">SignUp</a></li>
             </ul>
@@ -26,9 +26,9 @@
            
             <ul class="not">
                 <li ><a href=""><img  class="logo" src="./assets/images/logo.svg" alt=""></a></li>
-                <li class="hidemobile"><a href="#info-image">About Us</a></li>
-                <li class="hidemobile"><a href="#courses-wrapper">Courses</a></li>
-                <li class="hidemobile"><a href="#professor-spotlight">Professors</a></li>
+                <li class="hidemobile"><a href="index.html#information-wrapper">About Us</a></li>
+                <li class="hidemobile"><a href="index.html#courses-wrapper">Courses</a></li>
+                <li class="hidemobile"><a href="index.html#professor-spotlight">Professors</a></li>
                 <li class="hidemobile login"><a href="">Login</a></li>
                 <li class="hidemobile"><a href="">SignUp</a></li>
                 <li class="menu-button" onclick=showForm()><img src="./assets/icons/menu_FILL0_wght400_GRAD0_opsz24.svg" alt=""></li>
@@ -51,7 +51,6 @@
                     <div tabindex="1" class="input-password">
                         <input tabindex="1" type="password" placeholder="Password" id="password" required>
                         <img onclick="passValid()" id="eye-icon" src="./icons/eyebrow.png" alt="">
-                        
                     </div>
                 </form>
             </div><!-- /.form-details -->
@@ -114,44 +113,8 @@
     </section><!-- /.footer -->
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <script>
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function (e) {
-        e.preventDefault();
 
-        document.querySelector(this.getAttribute('href')).scrollIntoView({
-            behavior: 'smooth'
-        });
-    });
-});
     </script>
 </body>
 </html> 

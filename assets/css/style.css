@@ -46,33 +46,13 @@
 }
 
 .blur {
-    filter: blur(5px); /* Adjust the blur amount as needed */
-    pointer-events: none; /* Prevent interaction with blurred elements */
+    filter: blur(5px);
+    pointer-events: none; 
 }
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 body{
-    /* background-image: url(https://imgv3.fotor.com/images/blog-richtext-image/coding-on-a-laptop-for-ai-system.jpg); */
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
