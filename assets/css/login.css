@@ -310,7 +310,7 @@ body{
 
 @media (max-width: 1147px) {
     .sidebar{
-        display: flex;
+        display: none;
         align-items: center;
     }
     .sidebar  li{
@@ -398,7 +398,7 @@ body{
 
 
     .sidebar{
-        display: flex;
+        display: none;
         align-items: center;
     }
     .sidebar  li{
@@ -451,7 +451,7 @@ body{
 
 @media (max-width: 500px){
     .sidebar{
-        display: flex;
+        display: none;
         align-items: center;
     }
     .sidebar  li{
@@ -508,7 +508,7 @@ body{
 
 @media (max-width: 400px) {
     .sidebar{
-        display: flex;
+        display: none;
         align-items: center;
     }
     .sidebar  li{
