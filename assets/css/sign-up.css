@@ -193,6 +193,14 @@ body{
 .form-details form input{
     margin-left: 12px;
 }
+.form-details form label{
+    font-size: 15px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+.form-details form label span{
+    color: red;
+}
 .email-wrapper{
     display: flex;
     width: 100%;
@@ -266,6 +274,23 @@ body{
 .option-selection:hover{
     border: 1px solid rgba(0, 0, 0, 0.419);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
