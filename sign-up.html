@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="./assets/images/logo.svg">
+    <link rel="stylesheet" href="./assets/css/sign-up.css">
     <script src="./assets/js/script.js" ></script>
     <title>SignUp</title>
 </head>
@@ -37,13 +38,16 @@
     <secction class="hero-section">
         <div class="login-details">
             <div class="form-details">
-                <h1>Login</h1>
-                <div class="test-user">
-                    <p>Explore this App as a test User</p>
-                    <a href="">Teacher</a>
-                    <a href="">Student</a>
-                </div>
+                <h1>SignUp</h1>
                 <form action="">
+                    <select class="option-selection" name="" id="option">
+                        <option value="Role" disabled selected>Select Your Role</option>
+                        <option value="Student">Student</option>
+                        <option value="Teacher">Teacher</option>
+                    </select>
+                    <div class="name-input">
+                        <input type="text" placeholder="Full Name">
+                    </div>
                     <div tabindex="1" class="email-wrapper">
                     <input tabindex="1" type="email" placeholder="Email" id="email" required>
                     </div>
@@ -53,10 +57,13 @@
                     </div>
                 </form>
             </div><!-- /.form-details -->
+            <div class="terms-conditions" style="display: flex;">
+                <input type="checkbox">
+                <p>I agree to <a href="">Terms</a> and <a href="">Conditions</a></p>
+            </div>
             <div class="form-buttons">
-                <a href="">Login</a>
                 <a href="">SignUp</a>
-                <a href="">Forgot Password</a>
+                <a href="./sign_in.htmllku">Login</a>
             </div><!-- /.form-buttons -->
         </div><!-- /.login-details -->
     </secction><!-- /.hero-section -->
