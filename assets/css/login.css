@@ -233,7 +233,49 @@ body{
 .input-password:hover{
     border: 1px solid rgba(0, 0, 0, 0.419);
 }
-
+.forget-password{
+    /* box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1); */
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    width: 350px;
+    text-align: center;
+}
+.forget-password .email-forgot{
+    display: flex;
+    width: 100%;
+    background-color: #FAFAFC;
+    padding: 17px 0;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+}
+.forget-password .email-forgot input{
+    width: 100%;
+    margin-left: 10px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+.forget-password .email-forgot:hover{
+    border: 1px solid rgba(0, 0, 0, 0.419);
+}
+.forget-password a{
+    max-width: 100%;
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 13px;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    text-decoration: none;
+    margin-top: 40px;
+}
+.forget-password h2{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
 
 
 

@@ -173,12 +173,13 @@ body{
 .welcome-wrapper{
 
     display: flex;
-    padding: 20px 250px;
+    padding: 50px 250px;
 }
 .welcome{
     width: 50%;
     /* background-color: red; */
     margin: 10px;
+    padding-left: 20px;
 }
 .welcome-img{
     width: 50%;
@@ -211,14 +212,14 @@ body{
     color: white;
 }
 .welcome ul .login2{
-    padding: 10px 30px;
+    padding: 17px 30px;
     background-color: rgb(7, 7, 7);
     border-radius: 30px;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
 
 }
 .welcome ul .signup2{
-    padding: 10px 30px;
+    padding: 17px 35px;
     border: 1px solid black;
     border-radius: 30px;
     margin-left: 10px;

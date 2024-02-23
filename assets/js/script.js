@@ -79,9 +79,4 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 
 
 
-//Signup form validation of name email and password...
-
-let fullName = document.querySelector('.name-input');
-if(fullName == '' || fullName == '1234'){
-    alert('please enter vlaid name')
-}
+// function for displaying the forgot section and display none of the login page
