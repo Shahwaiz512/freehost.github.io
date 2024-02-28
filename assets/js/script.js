@@ -79,4 +79,4 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 
 
 
-// function for displaying the forgot section and display none of the login page
+
