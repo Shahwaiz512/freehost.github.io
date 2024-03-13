@@ -146,7 +146,7 @@ body{
     background-color:#EDF3FB;
     border: 1px solid #CCDDF3;
     padding: 20px;
-    text-align: center;
+    text-align: start;
     margin-bottom: 20px;
     margin-left: 10px;
     margin-right: 10px;
@@ -155,7 +155,10 @@ body{
 .test-user a{
     text-decoration: none;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
+}
+.test-user a:hover{
+    text-decoration: underline;
 }
 .form-buttons{
     margin-top: 40px;

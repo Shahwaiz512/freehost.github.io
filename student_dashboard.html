@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="icon" href="./assets/images/logo.svg">
+    <script src="./assets/js/script.js" ></script>
+    <title>Coding University</title>
+</head>
+<body>
+    <section class="navbar">
+        <nav class="nav">
+           <div class="sidebar">
+            <ul>
+                <li class="close-button" onclick=hideForm()><img src="./assets/icons/close_FILL0_wght400_GRAD0_opsz24.svg" alt=""></li>
+                <li ><img src="./assets/images/logo.svg" alt=""></li>
+                <li><a href="#information-wrapper1">About Us</a></li>
+                <li><a href="#courses-wrapper">
+                    <ul>
+                        <li>Course list</li>
+                        <li>Course Calender </li>
+                    </ul>
+                </a></li>
+                <li><a href="#professor-spotlight">Professors</a></li>
+                <li class="login-side"><a href="./sign_in.html" target="_blank">Login</a></li>
+                <li class="signup-side"><a href="./sign-up.html" target="_blank">SignUp</a></li>
+            </ul>
+           </div>
+            
+           
+            <ul class="not">
+                <li ><a href=""><img  class="logo" src="./assets/images/logo.svg" alt=""></a></li>
+                <li class="hidemobile"><a href="#info-image">About Us</a></li>
+                <li class="hidemobile"><a href="#courses-wrapper">Courses</a></li>
+                <li class="hidemobile"><a href="#professor-spotlight">Professors</a></li>
+                <li class="hidemobile login"><a href="./sign_in.html" target="_blank">View Courses</a></li>
+                <!-- <li class="hidemobile"><a href="./sign-up.html" target="_blank">SignUp</a></li> -->
+                <!-- <li class="menu-button" onclick=showForm()><img src="./assets/icons/menu_FILL0_wght400_GRAD0_opsz24.svg" alt=""></li> -->
+            </ul>
+        </nav>
+    </section><!-- /.navbar -->
+     <!-- /.an advertisement -->
+     
+     
+
+ <section class="hero-section">
+        <div class="welcome-wrapper">
+            <div class="welcome"> 
+                <h1>Welcome to</h1>
+                <h1>NoCode</h1>
+                <h1>University's</h1>
+                <h1>Student Portal</h1>
+                <p>A space where current students and teachers can <br> learn more about courses and their peers.</p>
+                <ul>
+                    <li class="login2"><a href="" target="_blank">Viwe Courses</a></li>
+                    <li class="signup2"><a href="" target="_blank">Meet Your Peers</a></li>
+                </ul>
+            </div><!-- /.welcome -->
+            <div class="welcome-img">
+                <img src="./assets/images/hero img.svg" alt="">
+            </div><!-- /.welocme-img -->
+        </div><!-- /.welcome -->
+       <div class="description-wrapper">
+        <div class="description">
+            <h1>NoCode University at a glance</h1>
+            <p>As a research university and nonprofit institution, NoCode University is focused on creating educational opportunities for people from many lived experiences.</p>
+        </div><!-- /.description -->
+       </div><!-- /.description-wrapper -->
+        <div class="information-wrapper">
+            <div class="info-image" id="info-image">
+                <div class="img1">
+                    <img src="./assets/images/info img.svg" alt="">
+                </div><!-- /.img1 -->
+                <div class="img2">
+                    <img src="./assets/images/div2.svg" alt="">
+                </div><!-- /.img2 -->
+                <div class="img3">
+                    <img src="./assets/images/div3.svg" alt="">
+                </div><!-- /.img3 -->
+                <div class="img4">
+                    <img src="./assets/images/div4.svg" alt="">
+                </div><!-- /.img4 -->
+            </div><!-- /.info-image -->
+            <div class="info-details">
+                <div tabindex="1" class="details" onclick="toggleImage('img1')">
+                    <h5>2019</h5>
+                    <p>the year NoCode University was established.</p>
+                </div><!-- /.details -->
+                <div tabindex="1" class="details active1"  onclick="toggleImage('img2')">
+                    <h5>1000+</h5>
+                    <p> students study at NoCode University.</p>
+                </div><!-- /.details -->
+                <div tabindex="1" class="details active2" onclick="toggleImage('img3')">
+                    <h5>50+</h5>
+                    <p>number of online courses offered.</p>
+                </div><!-- /.details -->
+                <div tabindex="1" class="details active3" onclick="toggleImage('img4')">
+                    <h5>50k+</h5>
+                    <p>alumni worldwide.</p>
+                </div><!-- /.details -->
+            </div><!-- /.info-details -->
+       </div><!-- /.information-wrapper -->
+        <div class="information-wrapper1">
+
+            <div class="section1-responsinve">
+                <img src="./assets/images/info img.svg" alt="">
+                <div class="details">
+                    <h5>2019</h5>
+                    <p>the year NoCode University was established.</p>
+                </div><!-- /.details -->
+            </div><!-- /.section1-responsinve -->
+            <div class="section1-responsinve">
+                <img src="./assets/images/div2.svg" alt="">
+                <div class="details">
+                    <h5>1000+</h5>
+                    <p> students study at NoCode University.</p>
+                </div><!-- /.details -->
+            </div><!-- /.section1-responsinve -->
+            <div class="section1-responsinve">
+                <img src="./assets/images/div3.svg" alt="">
+                <div class="details">
+                    <h5>50+</h5>
+                    <p>number of online courses offered.</p>
+                </div><!-- /.details -->
+            </div><!-- /.section1-responsinve -->
+            <div class="section1-responsinve">
+                <img src="./assets/images/div4.svg" alt="">
+                <div class="details">
+                    <h5>50k+</h5>
+                    <p>alumni worldwide.</p>
+                </div><!-- /.details -->
+            </div><!-- /.section1-responsinve -->
+        </div><!-- /.information-wrapper1 -->
+        <div class="courses-wrapper" id="courses-wrapper">
+            <div class="courses-description">
+                <h1>Courses</h1>
+                <p>Check out our courses 👇</p>
+            </div><!-- /.courses-description -->            
+        </div><!-- /.courses-wrapper -->
+        <div class="courses-detail-wrapper">
+            <div class="courses-detail">
+                <div class="course1">
+                    <div class="course1-img">
+                    <img src="./assets/images/course1.svg" alt="">
+                    </div><!-- /.course-img -->
+                    <div class="course1-description">
+                        <h1>Economics - Summer/Fall 2024</h1>
+                        <p>Business School</p>
+                    </div><!-- /.course-description -->
+                </div><!-- /.course1 -->
+                <div class="course2">
+                    <div class="course2-img">
+                    <img src="./assets/images/div3.svg" alt="">
+                    </div><!-- /.course2-img -->
+                    <div class="course2-description">
+                        <h1>Economics - Summer/Fall 2024</h1>
+                        <p>Business School</p>
+                    </div><!-- /.course2-description -->
+                </div><!-- /.course1 -->
+                <div class="course3">
+                    <div class="course3-img">
+                    <img src="./assets/images/div4.svg" alt="">
+                    </div><!-- /.course3-img -->
+                    <div class="course3-description">
+                        <h1>Economics - Summer/Fall 2024</h1>
+                        <p>Business School</p>
+                    </div><!-- /.course3-description -->
+                </div><!-- /.course1 -->
+            </div><!-- /.courses-detail -->
+        </div><!-- /.courses-detail-wrapper -->
+        <div class="professor-spotlight-wrapper">
+            <div class="professor-spotlight" id="professor-spotlight">
+                <h1>Professor spotlight</h1>
+                <p>We enable millions of students around the globe to unlock their learning potential with our award-winning courses and inspiring professors.</p>
+            </div><!-- /.professor-spotlight -->
+            <div class="professor-spotlight-details-wrapper">
+                <div class="professor-name" id="professor-name">
+                    <div tabindex="1" class="professor1 property" onclick="toggleInfo('professor1-detail')">
+                        <img src="./assets/images/english porfessor.jpg" alt="">
+                        <p>Cordelia Taraby</p>
+                    </div><!-- /.professor1 -->
+                    <div tabindex="1" class="professor2 property" onclick="toggleInfo('professor2-detail')">
+                        <img src="./assets/images/f17760e5-1930-49f0-9244-696aa3bd6b00.jpeg" alt="">
+                        <p>Not a teacher</p>
+                    </div><!-- /.professor2 -->
+                    <div tabindex="1" class="professor3 property" onclick="toggleInfo('professor3-detail')">
+                        <img src="./assets/images/advertisment.jpg" alt="">
+                        <p>May be a teacher </p>
+                    </div><!-- /.professor3 -->
+                    <div tabindex="1" class="professor4 property" onclick="toggleInfo('professor4-detail')">
+                        <img src="./assets/images/4th teacher.webp" alt="">
+                        <p>Software Engineer</p>
+                    </div><!-- /.professor4 -->
+                </div><!-- /.professor-name -->
+                <div class="professor-detail">
+                    <div class="professor1-detail">
+                        <img src="./assets/images/english porfessor.jpg" alt="">
+                        <h1>Cordelia Taraby</h1>
+                        <p>Cordelia is a professor of vision science, with a focus on the study of how the visual system works and how it can be improved. She is a respected expert in her field, with a strong background in research and teaching. Her contributions to vision science have been significant, and she is likely making a positive impact on the understanding and treatment of visual impairments and other related conditions.</p>
+                    </div><!-- /.professor1-detail -->
+                    <div class="professor2-detail">
+                        <img src="./assets/images/f17760e5-1930-49f0-9244-696aa3bd6b00.jpeg" alt="">
+                        <h1>Not a Teacher</h1>
+                        <p>Cordelia is a professor of vision science, with a focus on the study of how the visual system works and how it can be improved. She is a respected expert in her field, with a strong background in research and teaching. Her contributions to vision science have been significant, and she is likely making a positive impact on the understanding and treatment of visual impairments and other related conditions.</p>
+                    </div><!-- /.professor2-detail -->
+                    <div class="professor3-detail">
+                        <img src="./assets/images/advertisment.jpg" alt="">
+                        <h1>May be  a Teacher</h1>
+                        <p>Cordelia is a professor of vision science, with a focus on the study of how the visual system works and how it can be improved. She is a respected expert in her field, with a strong background in research and teaching. Her contributions to vision science have been significant, and she is likely making a positive impact on the understanding and treatment of visual impairments and other related conditions.</p>
+                    </div><!-- /.professor3-detail -->
+                    <div class="professor4-detail">
+                        <img src="./assets/images/4th teacher.webp" alt="">
+                        <h1>Software Engineer</h1>
+                        <p>Cordelia is a professor of vision science, with a focus on the study of how the visual system works and how it can be improved. She is a respected expert in her field, with a strong background in research and teaching. Her contributions to vision science have been significant, and she is likely making a positive impact on the understanding and treatment of visual impairments and other related conditions.</p>
+                    </div><!-- /.professor4-detail -->
+                </div><!-- /.professor-detail -->
+            </div><!-- /.professor-spotlight-details-wrapper -->
+        </div><!-- /.professor-spotlight-wrapper -->
+
+    </section><!-- /.hero-section -->
+    <section class="footer">
+        <div class="footer-wrapper">
+            <div class="footer-details">
+                <p>&copy; 2024 NoCode University. All rights reserved.</p>
+                <img src="./assets/images/Screenshot_2024-02-13_100248-removebg-preview.png" alt="">
+            </div><!-- /.footer-details -->
+            <div class="icons2"></div><!-- /.icons2 -->
+        </div><!-- /.footer-wrapper -->
+    </section><!-- /.footer -->
+
+
+
+    <script>
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
+    </script>
+</body>
+</html> 
