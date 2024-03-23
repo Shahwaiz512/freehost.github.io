@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="icon" href="./assets/images/logo.svg">
     <script src="./assets/js/script.js" ></script>
-    <title>Coding University</title>
+    <title>Student Dashboard</title>
 </head>
 <body>
     <section class="navbar">
@@ -16,12 +16,7 @@
                 <li class="close-button" onclick=hideForm()><img src="./assets/icons/close_FILL0_wght400_GRAD0_opsz24.svg" alt=""></li>
                 <li ><img src="./assets/images/logo.svg" alt=""></li>
                 <li><a href="#information-wrapper1">About Us</a></li>
-                <li><a href="#courses-wrapper">
-                    <ul>
-                        <li>Course list</li>
-                        <li>Course Calender </li>
-                    </ul>
-                </a></li>
+                <li><a href="#courses-wrapper">Courses</a></li>
                 <li><a href="#professor-spotlight">Professors</a></li>
                 <li class="login-side"><a href="./sign_in.html" target="_blank">Login</a></li>
                 <li class="signup-side"><a href="./sign-up.html" target="_blank">SignUp</a></li>
@@ -34,16 +29,29 @@
                 <li class="hidemobile"><a href="#info-image">About Us</a></li>
                 <li class="hidemobile"><a href="#courses-wrapper">Courses</a></li>
                 <li class="hidemobile"><a href="#professor-spotlight">Professors</a></li>
-                <li class="hidemobile login"><a href="./sign_in.html" target="_blank">View Courses</a></li>
-                <!-- <li class="hidemobile"><a href="./sign-up.html" target="_blank">SignUp</a></li> -->
-                <!-- <li class="menu-button" onclick=showForm()><img src="./assets/icons/menu_FILL0_wght400_GRAD0_opsz24.svg" alt=""></li> -->
+                <li class="hidemobile login"><a href="./sign_in.html" target="_blank">Login</a></li>
+                <li class="hidemobile"><a href="./sign-up.html" target="_blank">SignUp</a></li>
+                <li class="menu-button" onclick=showForm()><img src="./assets/icons/menu_FILL0_wght400_GRAD0_opsz24.svg" alt=""></li>
             </ul>
         </nav>
     </section><!-- /.navbar -->
      <!-- /.an advertisement -->
-     
-     
 
+<div class="advertisement-wrapper" id="advertisement-wrapper">
+    <div class="advertisement" id="advertisement">
+        <div class="advertisement-content">
+            <span class="close" onclick="closeAdvertisement()">&times;</span>
+            <img src="./assets/images/advertisment 2.jpg" alt="">
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+    
  <section class="hero-section">
         <div class="welcome-wrapper">
             <div class="welcome"> 
@@ -53,8 +61,8 @@
                 <h1>Student Portal</h1>
                 <p>A space where current students and teachers can <br> learn more about courses and their peers.</p>
                 <ul>
-                    <li class="login2"><a href="" target="_blank">Viwe Courses</a></li>
-                    <li class="signup2"><a href="" target="_blank">Meet Your Peers</a></li>
+                    <li class="login2"><a href="./sign_in.html" target="_blank">Login Now</a></li>
+                    <li class="signup2"><a href="./sign-up.html" target="_blank">SignUp</a></li>
                 </ul>
             </div><!-- /.welcome -->
             <div class="welcome-img">
